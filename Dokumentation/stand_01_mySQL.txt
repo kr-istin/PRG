@@ -1,0 +1,6 @@
+MYSQL
+
+Langfristig sollen die Texte unseres Adventures eingespeichert werden. 
+Innerhalb der Texte sollen auch verknüpfungen entstehen.
+Wir haben uns gegen das Erstellen eines Users entschieden. 
+Die Daten der Gesammelten XP/Gegenstände sollen nur in einem Array gespeichert werden.
