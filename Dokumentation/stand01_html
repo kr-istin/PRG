@@ -1,0 +1,17 @@
+HTML Teil
+
+Ansichten:
+1. Menübildschirm
+2. Spielbildschirm
+
+Bestandteile der Benutzeroberfläche:
+1. Menü:
+    -> Start Game
+    -> Exit
+    (-> Optionen)
+    
+2. Spielbidlschirm
+    -> Anzeige der Items
+    -> Healthbar
+    -> Textfeld inkl. Text und Buttons
+    -> Hintergrundbild (zu Text oder Kampf)
