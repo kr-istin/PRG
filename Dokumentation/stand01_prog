@@ -1,0 +1,9 @@
+PHP Teil
+
+Das Textadventure soll folgende Funktionen beinhalten:
+- Texte ensprechend der Auswahl des Users anzeigen und ändern
+- Kampfsystem
+    -> noch nicht ganz klar wie genau dieses funktionieren soll, da es auch zur Story passen soll
+    -> vllt Würfeln? offen oder "geheim" (User weiß nicht, dass es mit WÜrfeln passiert)
+- zufälliges Erscheinen von Gegenständen, Gegnern, ...
+- eventuell Health des Spielers/der Waffe/des Begleiters
