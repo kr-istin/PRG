@@ -2,5 +2,5 @@ MYSQL
 
 Langfristig sollen die Texte unseres Adventures eingespeichert werden. 
 Innerhalb der Texte sollen auch verknüpfungen entstehen.
-Wir haben uns gegen das Erstellen eines Users entschieden. 
+Wir haben uns gegen das Erstellen eines Users entschieden. Sondern wir wollen es dem Spieler nur ermöglichen seinen Spielstand zu speichern. Es soll also kein Benutzerprofil erstellt werden da wir das unnötig halten für ein Spiel das man nicht mit anderen Usern spielen kann. Man soll lediglich an der stelle an der man das letze mal aufgehört hat anhand einer gespeicherten Datei weiter spielen können.
 Die Daten der Gesammelten XP/Gegenstände sollen nur in einem Array gespeichert werden.
