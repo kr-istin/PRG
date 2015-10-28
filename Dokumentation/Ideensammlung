@@ -1,0 +1,21 @@
+Ideensammlung für das Textadventure
+
+Story:
+  - zerstörtes Labor mit Kreaturen, die Böse geworden sind
+  - Kreaturen haben Nummern von Experimenten, die ihre Stufe anzeigen ("Level")
+  - User hat Hilfe von einem Monster 
+  - das liebe Monster hat einen "Hardwarefehler": seine Zahl hat einen Wackelkontakt, seine Zahl/Stufe/Level ändert sich 
+  
+Kampfsystem:
+  - Spieler und Monster "würfeln"
+  - die vom Gegener gewürfelte Zahl spiegelt sich in der Monsterstufe wieder
+  - die vom Spieler gewürfelte Zahl spiegelt sich mit dem Wackelkontakt des Helfers wieder
+  - Spieler kann Juwelen finden, die das Monster tragen kann
+  - Juwelen geben permanente Boni auf die Würfe (Zahl des Monsters), z.B. +2 o.ä.
+  - man kann auch verlieren, dann muss man einen anderen Weg wählen und verliert ggf. Juwelen
+  
+anderes:
+  - es muss eine Art Counter geben, damit man nach bestimmten Bereichen bestimmte Gegnerstufen antreffen kann
+    (nicht zu früh hohe Gegner, nicht zu niedrige etc)
+  - es soll wichtige und unwichtige Entscheidungen geben, d.h. nicht alle entscheiden über den Verlauf des Endes
+  
