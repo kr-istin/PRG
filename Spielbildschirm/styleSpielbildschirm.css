@@ -1,0 +1,15 @@
+
+
+
+body{
+	background-image: url(DSC_0293.jpg);
+}
+
+section{
+	
+   	background-color: hsla(0, 50%, 50%, 0.5);
+    	position: relative;
+    	top: 600px;
+    	left: 0px;
+	height: 300px;
+}
