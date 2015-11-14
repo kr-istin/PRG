@@ -1,15 +1,19 @@
+header{
+	position: absolute;
+	left: 0px;
+}
 
 
 
 body{
-	background-image: url(DSC_0293.jpg);
+	background-image: url(Grafiken/test.png);
 }
 
 section{
 	
    	background-color: hsla(0, 50%, 50%, 0.5);
     	position: relative;
-    	top: 600px;
+    	top: 500px;
     	left: 0px;
-	height: 300px;
+	height: 200px;
 }
