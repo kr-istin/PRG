@@ -1,12 +1,15 @@
 <?php
 
-    // Variablen die genutzt werden sollen
+    // Variablen für das Hauptprogramm
     $continue = true;
     $steps;
     $randomEvent;
     $lvlHelper;
     $lvlOpponent;
-
+    
+    $inventar = array();
+    $getGem;
+    
 
     // dieser Teil sollte direkt im HTML Code stehen
     // falls möglich sollte die Ausgabe vor erneutem Aufruf "gelöscht" werden, ohne die Seite neu laden zu müssen
@@ -17,7 +20,8 @@
             combatSimulator();          
         }
         else if($randomEvent == 2) {    // bei einer 2 wird vor dem Weitergehen ein Juwel aufgehoben
-            foundGem();
+            $getGem = foundGem();
+            $inventar[] = $newGem;      // fügt das neue Juwel hinten ans Inventar-Array
         }
         
         /*  An dieser Stelle sollen dann der normale Text und die Auswahlmöglichkeiten ausgegeben werden
@@ -29,5 +33,14 @@
          */
         
     } while($continue);
+    
+    
+    
+    // folgende Funktion könnte später evtl in eine eigene PHP Datei verschoben werden
+    function foundGem() {
+        $newGem = rand(0, 3);   // Bonus des Juwels wird zufällig ausgewählt, Zahlen müssen noch angepasst werden
+        echo "Du hast ein Juwel gefunden. Es hat die Stufe " + $newGem + ". Dein Helfer scheint nun stärker zu sein.";  // Ausgabeentwurf, sollte noch angepasst werden
+        return $newGem;
+    }
 
 ?>
