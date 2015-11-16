@@ -1,19 +1,25 @@
 header{
-	position: absolute;
+	position: relative;
 	left: 0px;
 }
 
+nav{
+	position: absolute;
+	left: 85%;
+	top: 10px;
+}
 
 
-body{
-	background-image: url(Grafiken/test.png);
+body{	
+
+	background-image: url("Grafiken/test.png");
 }
 
 section{
-	
-   	background-color: hsla(0, 50%, 50%, 0.5);
-    	position: relative;
-    	top: 500px;
+	color: #FFFFFF;
+   	background-color: hsla(0, 0%, 0%, 0.9);
+    	position: fixed;
+    	top: 70%;
     	left: 0px;
 	height: 200px;
 }
