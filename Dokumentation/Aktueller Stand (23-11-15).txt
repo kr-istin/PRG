@@ -17,9 +17,9 @@ ________________________________________________________________________________
 To Do Liste:
 
 	PHP:		- Kampsimulator, Events und Juwelen-Funktion ans Balancing anpassen,
-				- PHP Teil weiter in den HTML Code einpflegen		
+			- PHP Teil weiter in den HTML Code einpflegen		
 				
 	MSQL:		- User log in
 	
 	Allgemein:	- Texte für die Datenbank (ins Besondere Handlung und Wahlmöglichkeiten)
-				- klären was passiert, wenn man einen Kampf verliert
+			- klären was passiert, wenn man einen Kampf verliert
