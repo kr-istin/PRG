@@ -16,6 +16,9 @@ ________________________________________________________________________________
 
 To Do Liste:
 
+	HTML:		- weiße Balken auf dem Startbildschirm entfernen, schwarzen balken mit (Dummy)Test füllen
+			- Container für Gegnerbild
+	
 	PHP:		- Kampsimulator, Events und Juwelen-Funktion ans Balancing anpassen,
 			- PHP Teil weiter in den HTML Code einpflegen		
 				
