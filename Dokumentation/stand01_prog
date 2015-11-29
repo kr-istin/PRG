@@ -1,4 +1,4 @@
-PHP Teil
+PHP Teil - erste Überlegungen
 
 Das Textadventure soll folgende Funktionen beinhalten:
 - Texte ensprechend der Auswahl des Users anzeigen und ändern
@@ -7,3 +7,15 @@ Das Textadventure soll folgende Funktionen beinhalten:
     -> vllt Würfeln? offen oder "geheim" (User weiß nicht, dass es mit WÜrfeln passiert)
 - zufälliges Erscheinen von Gegenständen, Gegnern, ...
 - eventuell Health des Spielers/der Waffe/des Begleiters
+
+___________________________________________________________________________________________
+
+-- Stand 29.11. --
+
+Der Entwurf für das Programm steht soweit - siehe draft.php unter Dokumentation.
+Teilweise sind noch Syntaxfehler enthalten und einige Stellen sind noch nicht ausgereift oder lückenhaft. 
+Dies soll bei der Übertragung ins Programm (game.php) überarbeitet bzw. ausgeweitet werden. 
+Danach sollen dann die entsprechenden Stellen an das Balancing, dass in der Gruppe beschlossen wurde, angepasst werden.
+
+ Krankheitsbedingt konnte ich die letzte Woche leider nicht am Projekt weiter arbeiten.
+ Im Laufe der nächste Woche werde ich mit der Überarbeitung des PHP-Entwurfes starten und diesen dann weiter in das Programm integrieren.
