@@ -19,7 +19,15 @@ section{
 	color: #FFFFFF;
    	background-color: hsla(0, 0%, 0%, 0.9);
     	position: fixed;
+	z-index: 2;
     	top: 70%;
     	left: 0px;
 	height: 200px;
+}
+
+figure{
+	position:absolute;
+    	z-index: 1;
+	left: 30%;
+	top: 5%;
 }
