@@ -8,6 +8,7 @@ Das Textadventure soll folgende Funktionen beinhalten:
 - zufälliges Erscheinen von Gegenständen, Gegnern, ...
 - eventuell Health des Spielers/der Waffe/des Begleiters
 
+
 ___________________________________________________________________________________________
 
 -- Stand 29.11. --
@@ -17,5 +18,15 @@ Teilweise sind noch Syntaxfehler enthalten und einige Stellen sind noch nicht au
 Dies soll bei der Übertragung ins Programm (game.php) überarbeitet bzw. ausgeweitet werden. 
 Danach sollen dann die entsprechenden Stellen an das Balancing, dass in der Gruppe beschlossen wurde, angepasst werden.
 
- Krankheitsbedingt konnte ich die letzte Woche leider nicht am Projekt weiter arbeiten.
- Im Laufe der nächste Woche werde ich mit der Überarbeitung des PHP-Entwurfes starten und diesen dann weiter in das Programm integrieren.
+Krankheitsbedingt konnte ich die letzte Woche leider nicht am Projekt weiter arbeiten.
+Im Laufe der nächste Woche werde ich mit der Überarbeitung des PHP-Entwurfes starten und diesen dann weiter in das Programm integrieren.
+ 
+ 
+___________________________________________________________________________________________
+
+-- To Do List (Stand: 03.12.) --
+
+- Kampsimulator, Events und Juwelen-Funktion ans Balancing anpassen,
+- PHP Teil weiter in den HTML Code einpflegen
+- überlegen, wie der geschrieben Text wieder "gelöscht" werden kann, ohne die Seite neu zu laden (evtl mit JS behelfen?)
+- heraus finden, wie ein anderer Container geändert werden kann (aus dem Content Container zB im Gegnercontainer das Bild ändern)
