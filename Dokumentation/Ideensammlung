@@ -12,7 +12,7 @@ Kampfsystem:
   - die vom Spieler gewürfelte Zahl spiegelt sich mit dem Wackelkontakt des Helfers wieder
   - Spieler kann Juwelen finden, die das Monster tragen kann
   - Juwelen geben permanente Boni auf die Würfe (Zahl des Monsters), z.B. +2 o.ä.
-  - man kann auch verlieren, dann muss man einen anderen Weg wählen und verliert ggf. Juwelen
+  - man kann auch verlieren, dann muss man einen anderen Weg wählen und verliert ggf. Juwelen --> man geht den anderen Weg, den man nicht gewählt hat
   
 anderes:
   - es muss eine Art Counter geben, damit man nach bestimmten Bereichen bestimmte Gegnerstufen antreffen kann
