@@ -14,18 +14,22 @@
 			<img src="Grafiken/testAnzeigeFreund.png" alt="Anzeige des Freundes">
 		</header>
 		<nav>
-  			<a href="index.htm" title="Startseite">Startseite</a> 
+  			<a href="index.html" title="Startseite">Startseite</a> 
 		
   			
 		</nav>
 		<main role="main">
 			<h1></h1>
+			
 			<section>
-                            <p>
-                                <?php include 'game.php';?>
-                            </p>
+				<p>
+					<?php include 'game.php';?>
+                </p>
 			</section>
 			
+			<figure>
+				<img src="Grafiken/testGegner.png" alt="Gegner">
+			</figure>
 				
 			
 		</main>
