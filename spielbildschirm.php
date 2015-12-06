@@ -14,7 +14,7 @@
 			<img src="Grafiken/testAnzeigeFreund.png" alt="Anzeige des Freundes">
 		</header>
 		<nav>
-  			<a href="index.html" title="Startseite">Startseite</a> 
+  			<a href="index.htm" title="Startseite">Startseite</a> 
 		
   			
 		</nav>
