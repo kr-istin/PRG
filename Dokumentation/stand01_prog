@@ -24,9 +24,20 @@ Im Laufe der nächste Woche werde ich mit der Überarbeitung des PHP-Entwurfes s
  
 ___________________________________________________________________________________________
 
--- To Do List (Stand: 03.12.) --
+-- Stand 06.12. --
 
-- Kampsimulator, Events und Juwelen-Funktion ans Balancing anpassen,
-- PHP Teil weiter in den HTML Code einpflegen
-- überlegen, wie der geschrieben Text wieder "gelöscht" werden kann, ohne die Seite neu zu laden (evtl mit JS behelfen?)
+Der PHP-Entwurf ist nun soweit in das eigentliche Programm integriert. Falsche Syntax und sonstige Fehler sollten soweit ausgebessert sein.
+Den Kampfsimulator habe ich in die combat.php Datei ausgelagert. Er ist leicht überarbeitet und an das vorläufige Balancing angepasst.
+(Meine IDE, netbeans, hat mir im Bezug auf die Instanziierung der Variablen teilweise falsche Hinweise/Verbesserungen angezeigt, daher kann es sein, dass die Funktion nochmal überarbeitet werden muss).
+
+Als nächstes soll hinzugefügt werden, dass der geschriebene Text wieder gelöscht wird, nachdem man eine Auswahlmöglichkeit gewählt hat.
+Da dies ohne Neuladen wahrscheinlich mit PHP alleine kaum realisierbar sein wird, werde ich mich als nächstes ein wenig in Javascript einlesen.
+
+
+___________________________________________________________________________________________
+
+-- To Do List (Stand: 06.12.) --
+
+- Events und Juwelen-Funktion ans Balancing anpassen
+- überlegen, wie der geschrieben Text wieder "gelöscht" werden kann/soll
 - heraus finden, wie ein anderer Container geändert werden kann (aus dem Content Container zB im Gegnercontainer das Bild ändern)
