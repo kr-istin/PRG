@@ -1,0 +1,28 @@
+Aktuelle Besprechungen - Stand: 23.11.15
+
+	vorläufiges Balancing:
+		- die Chance ein Juwel zu finden beträgt 15%
+		- die Chance, dass ein Monster auftaucht und ein Kampf beginnt, beträgt 30%
+		
+		- Chance, dass ein Juwel einen bestimmten Bonus gibt:
+			+1: 50% 	+2: 35% 	+3: 15%
+			
+		zum Kampfsimulator:
+			- Wertebereich Helfer: 0 bis 15,	Wertebereich Gegner: 0 bis 10
+			- der Spieler soll eine leicht höhere Chance auf einen Gewinn haben
+			- damit es trotzdem "gerecht" bleibt (Gegner nicht zu schwach), wird im Code beiden Leveln der Juwelenbonus addiert 
+
+___________________________________________________________________________________________________________________________________
+
+To Do Liste:
+
+	HTML:		- weiße Balken auf dem Startbildschirm entfernen, schwarzen balken mit (Dummy)Test füllen
+			- Container für Gegnerbild
+	
+	PHP:		- Kampsimulator, Events und Juwelen-Funktion ans Balancing anpassen,
+			- PHP Teil weiter in den HTML Code einpflegen		
+				
+	MSQL:		- User log in
+	
+	Allgemein:	- Texte für die Datenbank (ins Besondere Handlung und Wahlmöglichkeiten)
+			- klären was passiert, wenn man einen Kampf verliert
