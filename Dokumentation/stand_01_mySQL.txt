@@ -13,3 +13,29 @@ Relation1 : ID (wenn Antwortmöglichkeit 1 ausgewählt wird)
 Relation2: ID (wenn Antwortmöglichkeit 2 ausgewählt wird)
 Relation3: ID (wenn Antwortmöglichkeit 3 ausgewählt wird)
 Relation4: ID (Vorheriger Text)
+
+__________________________
+-Stand 8.12
+-
+-Tabelle Text:
+-ID: int(11)
+-Text: text
+-antwort1 : int (wenn Antwortmöglichkeit 1 ausgewählt wird dann soll der Text von Tabelle Antworten von 'int' angezeigt werden)
+-antwort2: int (wenn Antwortmöglichkeit 2 ausgewählt wird)
+-antwort3: int (wenn Antwortmöglichkeit 3 ausgewählt wird)
+-
+-Beispielsweise ist von antwort1 : int = ID aus der Tabelle Antworten
+-und aus dieser lässt von der naechste_Frage die int einsetzen um den nächsten Text zufinden
+-
+-Tabelle Antworten:
+-ID: int(11)
+-Text: text
+-naechste_Frage: int(11)
+-
+-
+-Tabelle: Anmelden/Login
+-ID: int
+-Benutzername:
+-Passwort:
+-
+-Umsetzung erfolt nach absprachen mit dem team wegen fragen bezüglich der Relationen innerhalt der Umsetzung der Geschichte
