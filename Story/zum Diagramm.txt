@@ -1,3 +1,22 @@
+Das Diagramm ist von oben nach unten zu lesen, AUSSER bei Text 10a!!
+
+10a führt wieder zurück zum Text 8
+
+
+
+
+Es kann sein, dass ich wieder ein paar Sachen im Diagramm ändere, wenn ich die einzelnen Texte schreiben werde und feststelle, 
+dass etwas vertauscht/geändert werden sollte.
+
+
+
+
+
+
+
+Erklärung der einzelnen Stränge:
+
+
 M1 (Mitte1): Hauptcharakter wird von dem lieben Monster getrennt, durch einen eingestürzten Gang
 
 Haupt: Das liebe Monster führt den Hauptcharakter ohne Hindernisse zum großen Labor
@@ -10,3 +29,8 @@ Ende1: Großes Finale im Hauptlabor, in dem der Unfall passiert ist
 Ende2: Monster erkennt, dass nicht alle Menschen böse sind und hilft dem Hauptcharakter zu fliehen
 
 Ende3: Man findet alleine den Weg aus dem Labor
+
+
+
+
+
