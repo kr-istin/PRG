@@ -39,3 +39,12 @@ __________________________
 -aktueller_text: int FOREIGN KEY
 
 -Umsetzung erfolgt nach absprachen mit dem team wegen fragen bezüglich der Relationen innerhalt der Umsetzung der Geschichte
+
+=== Feedback Alpers, Dez 11 ===
+
+Das ist ein guter erster Entwurf. Setzen Sie das und die nötigen Transaktionen doch bereits in MySQL um.
+Anpassen können Sie das später immer noch.
+
+Außerdem sollten Sie damit beginnen, die Transaktionen in den PHP-Code zu integrieren.
+
+=== Feedback Alpers, Ende ===
