@@ -33,6 +33,18 @@ Stand 10.12.
 EasyPHP runterladen und den Container für die Textausgabe anpassen, je nachdem wie lang die Texte sind
 ansonsten Scrollbalken einfügen
 
+13.12.
+
+Da man meinen Arbeitsaufwand im Quellcode nicht sieht, möchte ich hier festhalten, dass
+ich heute längere Zeit an dem Projekt gearbeitet habe und zu den Sachen, die ich heute gepusht habe noch am folgendem Problem saß:
+Undzwar habe ich versucht in der spielblidschirm.php Datei (und der styleSpielbildschirm.css Datei)
+den Balken so zu gestalten, sodass er immer über den ganzen Bildschirm geht. Im Moment passt der Balken sich immer 
+der Länge des Textes an.
+
+to do Liste für die nächsten Tage:
+- das oben benannte Problem versuchen zu lösen
+- mit Team besprechen, welche Inhalte noch auf die Seiten kommen könnten
+
 === Feedback Alpers, Dez 11 ===
 
 Das sieht soweit gut aus: Knappe Zusammenfassung des Standes, sieht nachvollziehbar aus.
