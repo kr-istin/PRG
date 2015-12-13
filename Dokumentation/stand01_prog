@@ -41,3 +41,25 @@ ________________________________________________________________________________
 - Events und Juwelen-Funktion ans Balancing anpassen
 - überlegen, wie der geschrieben Text wieder "gelöscht" werden kann/soll
 - heraus finden, wie ein anderer Container geändert werden kann (aus dem Content Container zB im Gegnercontainer das Bild ändern)
+
+=== Feedback Alpers, Dez 11 ===
+
+Sehr gute Dokumentation: Es ist direkt erkennbar, wie das Projekt vorangegangen ist und was aktuell aus welchem Grund zu tun ist.
+
+Ein Hinweis allerdings bezüglich Ihrer Befürchtung, dass PHP nicht reichen dürfte, um die gewünschte Funktionalität zu realiseren:
+Doch, da reicht PHP alle mal aus. Lassen Sie JS von daher für dieses Semester erstmal beiseite und machen sie mit PHP weiter.
+
+Nachtrag:
+
+Bislang entwickeln Sie beide größtenteils unabhängig voneinander das Projekt. Sinn und Zweck der Unterteilung in Modell und Controller
+(hier per Unterteilung in HTML- und PHP-Teil realisiert) ist jedoch, dass jede von Ihnen sich auf einen bestimmten Teil des Projekts
+konzentriert. Das soll allerdings nicht dazu führen, dass Sie letztlich eigene Projekte bearbeiten, die kaum im Bezug aufeinander stehen.
+Vielmehr soll jede von Ihnen einen Bereich des Gesamtprojekts sinnvoll entwickeln, wobei alle Bereiche weiterhin eng verzahnt bleiben.
+
+Diese Verzahnung ist zum Beispiel dann gegeben, wenn die HTMLerin eine Schaltfläche entwickelt und die PHPlerin die Änderungen, die dann
+eintreten, wenn Nutzer diese Schaltfläche betätigen.
+
+Momentan sieht es dagegen eher so aus, als wenn der PHP-Teil im Grunde vom HTML-Teil unabhängig ist und auch in jedes andere Projekt direkt
+eingebunden werden könnte, ohne dabei sinnlos zu werden.
+
+=== Feedback Alpers, Ende ===

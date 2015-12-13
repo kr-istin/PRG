@@ -41,6 +41,17 @@
         
     } while($continue);
     
+	/*
+	* === Feedback Alpers, Dez 11 ===
+	*
+	* Wenn dieser Teil direkt im HTML-Code stehen soll, dann binden Sie ihn doch per <?php ... ?> oder
+	* per include() direkt ein. Dass Sie sich um den PHP-Teil kümmern sollen bedeutet nicht, dass Sie
+	* den PHP-Teil nicht an den entsprechenden Stellen im HTML-Code eintragen dürfen, ganz im Gegenteil:
+	* Es ist Ihre Aufgabe all das zu programmieren, was mit Ihrem Part zu tun hat. Und das sollten Sie an
+	* den Stellen tun, wo es Sinn macht.
+	*
+	* === Feedback Alpers, Ende ===
+	*/
     
     
     // folgende Funktion könnte später evtl in eine eigene PHP Datei verschoben werden
@@ -50,7 +61,17 @@
         return $newGem;
     }
 
-    
+    /*
+	* === Feedback Alpers, Dez 11 ===
+	*
+	* Warnung (aber kein Fehlerhinweis):
+	*
+	* Achten Sie darauf, dass Sie die Funktion foundGem() später richtig einbinden: Zum einen erzeugen Sie
+	* hier eine Ausgabe im Browser (durch echo()), zum anderen gibt die Funktion hier einen Rückgabewert zurück,
+	* den Sie dann auch verwenden sollten.
+	*
+	* === Feedback Alpers, Ende ===
+	*/
     
     // folgende Funktion könnte später evtl in eine eigene PHP Datei verschoben werden
     function combatSimulator(/* hier Steps, lvl- und opponent-Variablen übergeben */) {      
