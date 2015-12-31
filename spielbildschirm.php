@@ -4,7 +4,7 @@
 	<head>
 		<title>Spielbildschirm</title>
 		<meta charset=utf-8>
-		<link rel="stylesheet" type="text/css" href="styleSpielbildschirm.css">
+		<link rel="stylesheet" href="styleSpielbildschirm.css">
 	</head>
 		
 		
@@ -21,11 +21,11 @@
 		<main role="main">
 			<h1></h1>
 			
-			<section>
-				<p>
+			<article>
+				
 					<?php include 'game.php';?>
-                </p>
-			</section>
+               
+			</article>
 			
 			<figure>
 				<img src="Grafiken/testGegner.png" alt="Gegner">
