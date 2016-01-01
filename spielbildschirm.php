@@ -28,7 +28,7 @@
 			</article>
 			
 			<figure>
-				<img src="Grafiken/testGegner.png" alt="Gegner">
+				<img src="Grafiken/GegnerKaninchen.png" alt="Gegner">
 			</figure>
 				
 			
