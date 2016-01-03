@@ -75,3 +75,5 @@ folge_Text: int FOREIGN KEY (aus Tabelle Text ist dies die ID des Textes der nac
 
 diese Änderung ermöglicht es so viele Antwormöglichkeiten zu haben wie gerade gewünscht sind und sie dynamisch zu halten.
 Durch Tabelle T_A kann man nun herausfinden welcher Text als nächstes angezeigt werden soll.
+
+die Umsetzung folgt bald! muss noch schauen wegen einem server das wir darauf zugreifen können usw
