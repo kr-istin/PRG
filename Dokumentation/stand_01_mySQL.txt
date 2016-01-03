@@ -15,7 +15,15 @@ Relation3: ID (wenn Antwortmöglichkeit 3 ausgewählt wird)
 Relation4: ID (Vorheriger Text)
 
 __________________________
--Stand 8.12
+
+=== Feedback Alpers, Dez 11 ===
+
+Das ist ein guter erster Entwurf. Setzen Sie das und die nötigen Transaktionen doch bereits in MySQL um.
+Anpassen können Sie das später immer noch.
+
+Außerdem sollten Sie damit beginnen, die Transaktionen in den PHP-Code zu integrieren.
+
+=== Feedb-Stand 8.12
 -
 -Tabelle Text:
 -ID: int(11) PRIMARY KEY
@@ -39,12 +47,31 @@ __________________________
 -aktueller_text: int FOREIGN KEY
 
 -Umsetzung erfolgt nach absprachen mit dem team wegen fragen bezüglich der Relationen innerhalt der Umsetzung der Geschichte
+ack Alpers, Ende ===
 
-=== Feedback Alpers, Dez 11 ===
+-Stand 8.12
+-
+-Tabelle Text:
+-ID: int(11) PRIMARY KEY
+-Text: text
 
-Das ist ein guter erster Entwurf. Setzen Sie das und die nötigen Transaktionen doch bereits in MySQL um.
-Anpassen können Sie das später immer noch.
 
-Außerdem sollten Sie damit beginnen, die Transaktionen in den PHP-Code zu integrieren.
+-Tabelle Antwort:
+-ID: int(11) PRIMARY KEY
+-Antwort: text
 
-=== Feedback Alpers, Ende ===
+-NEW-
+Tabelle T_A
+ID: int(11) PRIMARY KEY
+Text: int FOREIGN KEY (aus Tabelle Text ist dies die ID zu dem aktuell angezeigten text)
+Antwort: int FOREIGN KEY (aus Tabelle Antwort ist dies die ID zu der aktuell ausgewählten frage)
+folge_Text: int FOREIGN KEY (aus Tabelle Text ist dies die ID des Textes der nach beantwortung mit X angezeigt werden soll)
+-
+-Tabelle: Anmelden/Login
+-ID: int PRIMARY KEY
+-Benutzername: text
+-Passwort: text
+-aktueller_text: int FOREIGN KEY
+
+diese Änderung ermöglicht es so viele Antwormöglichkeiten zu haben wie gerade gewünscht sind und sie dynamisch zu halten.
+Durch Tabelle T_A kann man nun herausfinden welcher Text als nächstes angezeigt werden soll.
