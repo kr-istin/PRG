@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang=de >
 <head>
 	<meta charset="UTF-8">
@@ -8,10 +8,10 @@
 	<header>
 	 <h1><img src="Grafiken\labLogo.png"  width="440" height="200" alt="logo"></h1> 
 	</header>
-	<form>
+	<form action="confirm_login.php" method="post">
 		<h1>Login</h1>
-		<p><input type"text" placeholder="Nutzername" required/></p>
-		<p><input type="password" placeholder="Passwort" required/></p>
+		<p>Username: <input type="text" name="name" placeholder="Nutzername" required/></p>
+		<p>Passwort: <input type="password" name="pass" placeholder="Passwort" required/></p>
 		<p><button type="submit">login</button><a href="registrieren.html"><button type="button">registrieren </button></a></p>
 		
 	</form>
