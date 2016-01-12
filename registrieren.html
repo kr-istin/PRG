@@ -12,10 +12,10 @@
 	</header>
 	
 	<h1>Registrieren</h1>
-	<form>
-		<p><input type="text" placeholder="Nutzername" required/></p>
-		<p><input type="password" placeholder="Passwort" required/></p>
-		<p><input type="password" placeholder="Passwort wiederholen" required/></p>
+	<form action="confirm_registration.php" method="post">
+		<p><input type="text" name="name" placeholder="Nutzername" required/></p>
+		<p><input type="password" name="pass" placeholder="Passwort" required/></p>
+		<p><input type="password" name="repeat" placeholder="Passwort wiederholen" required/></p>
 		<p><button type="submit">registrieren</button></p>
 	</form>
 </body>
