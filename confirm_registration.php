@@ -22,7 +22,7 @@
         if($pw == $pwRepeat) {      
             echo "<p>Hallo " . $username . "!</p><br>";    // gibt kurze Bestätigung inkl. Username aus      
             echo "<p>Danke für deine Anmeldung. Viel Spaß beim Spielen! :)</p><br><br>";
-            echo "<p><b>Achtung:</b> Dies ist eine Testausgabe. Aktuell funktioniert das einloggen noch nicht.</p>"; 
+            echo "<p><b>Achtung:</b> Dies ist eine Testausgabe. Aktuell funktioniert das registrieren noch nicht.</p>"; 
         }
          else {
             echo "Die Passwortwiederholung stimmt nicht mit dem eingegebenen Passwort überein.<br>";
