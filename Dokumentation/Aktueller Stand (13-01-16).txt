@@ -1,0 +1,25 @@
+Aktuelle Besprechungen - Stand: 13.01.16
+
+	- da eine Einführung in das Kampfsystem sinnvoll ist soll nach den ersten Entscheidungen garantiert ein Beispielkampf auftauchen (Arbeitsname: specialCombat)
+	- Kampfsimulator und Juwelen finden sollen auf eigene Unterseiten verlegt werden, um das Umleiten und Ändern von Inhalt ohne JS zu erleichtern
+	- für die Story macht es Sinn, dass an einigen Stellen die Kämpfe aussetzen: es muss eine entsprechende Abfrage eingebaut werden 
+	- es wurde geklärt was aktuell noch für jedes Mitglied zu Tun ist 
+
+___________________________________________________________________________________________________________________________________
+
+
+To Do Liste:
+
+	HTML:		- Unterseite für das Ende
+				- Einbindung von Sound
+				- falls es sonst nichts mehr gibt: evtl. Easter Eggs
+				
+				
+	PHP:		- neu überlegte Abfrage (soll an dieser Stelle die Möglichkeit für einen Kampf/ein neues Juwel überhaupt bestehen) einbauen
+				- Einführungskampf (specialCombat) einbauen
+				- einfügen wann $continue auf false gesetzt werden soll
+				- Weiterleitung auf neue Unterseiten bzw. auf sich selbst (Refresh) einbauen
+	
+	
+	MSQL:		- PHP Code für SQL Zugriffe
+				- Login Tabelle
