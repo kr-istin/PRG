@@ -30,7 +30,11 @@
 			<figure>
 				<img src="Grafiken/GegnerKaninchen.png" alt="Gegner">
 			</figure>
-				
+			
+			<audio controls>
+  				<source src="beispiel.ogg" type="audio/ogg">
+  				<source src="beispiel.mp3" type="audio/mpeg">
+			</audio>	
 			
 		</main>
 		
