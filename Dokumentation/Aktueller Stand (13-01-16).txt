@@ -23,3 +23,9 @@ To Do Liste:
 	
 	MSQL:		- PHP Code für SQL Zugriffe
 			- Login Tabelle
+
+=== Feedback Alpers, Jan 20 ===
+
+Gute Dokumentation: Knapp und übersichtlich.
+
+=== Feedback Alpers, Ende ===

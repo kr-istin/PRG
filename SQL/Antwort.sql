@@ -94,3 +94,21 @@ MODIFY `ID` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=36;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+/*
+=== Feedback Alpers, Jan 20 ===
+
+Leider haben Sie die Aufgabe nicht erledigt: Sie sollten als Teil des Teams die DB-Erzeugung und Transaktionen
+programmieren. Was Sie getan haben ist mittels eines Tools (PHPMyAdmin) eine DB und einige Transaktionen erzeugen zu
+lassen. In anderen Worten: Sie haben sich ein Programm gesucht, das die Aufgabe erfüllt, die Sie erfüllen sollten.
+
+Deshalb hier nochmal Ihre zentrale Aufgabe des Projekts: Programmieren Sie MySQL-Transaktionen, mit denen eine DB erzeugt
+und im Anwendungsverlauf genutzt wird. Diese werden dann z.B. innerhalb eines PHP-Programms genutzt, um aus der
+Anwendung auf die DB zuzugreifen.
+
+Um Ihre Aufgabe zu erfüllen müssen Sie nicht den PHP-Code entwickeln, der nötig ist, um die MySQL-Anweisungen einzubinden,
+aber das Minimum Ihrer Aufgabe besteht darin, die Transaktionen an den Stellen ins PHP-Skript als Kommentare einzutragen, wo
+Sie aufgerufen werden sollen. Wenn es keine solche PHP-Datei gibt, dann erzeugen Sie eine, die einen passenden Namen hat.
+
+=== Feedback Alpers, Ende ===
+-->

@@ -77,3 +77,10 @@ diese Änderung ermöglicht es so viele Antwormöglichkeiten zu haben wie gerade
 Durch Tabelle T_A kann man nun herausfinden welcher Text als nächstes angezeigt werden soll.
 
 die Umsetzung folgt bald! muss noch schauen wegen einem server das wir darauf zugreifen können usw
+
+=== Feedback Alpers, Jan 20 ===
+
+Das ist leider als Dokumentation unübersichtlich: Sie mischen hier Kommentare und Code. Dadurch
+ist es nicht möglich, sich einen schnellen Überblick zu verschaffen.
+
+=== Feedback Alpers, Ende ===
