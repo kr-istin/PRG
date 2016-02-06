@@ -1,44 +1,18 @@
--- phpMyAdmin SQL Dump
--- version 4.2.12deb2+deb8u1
--- http://www.phpmyadmin.net
---
--- Host: localhost
--- Generation Time: Jan 06, 2016 at 08:51 PM
--- Server version: 10.0.22-MariaDB-1~jessie-log
--- PHP Version: 5.6.14-0+deb8u1
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-
---
--- Database: `abt633`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `Antwort`
---
+--Tabelle Antwort erstellen
 
 CREATE TABLE IF NOT EXISTS `Antwort` (
-`ID` int(10) unsigned NOT NULL,
-  `antwort` text NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=36 DEFAULT CHARSET=latin1;
+	`ID` int(10) unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`antwort` text NOT NULL
+) 
 
---
--- Dumping data for table `Antwort`
---
+
+
+--Die Tabelle mit Daten füllen
 
 INSERT INTO `Antwort` (`ID`, `antwort`) VALUES
 (1, 'Du gehst weiter'),
-(2, 'Du gehst aus dem Labor und lässt die verletzte Maus liegen.\r\n'),
-(3, 'Du wickelst die verletzte Maus in die Decke ein und nimmst sie vorsichtig mit.\r\n'),
+(2, 'Du gehst aus dem Labor und lässt die verletzte Maus liegen.'),
+(3, 'Du wickelst die verletzte Maus in die Decke ein und nimmst sie vorsichtig mit.'),
 (4, 'Du gehst nach links.'),
 (5, 'Du gehst nach rechts.'),
 (6, 'Du verlässt den Raum und begibst dich auf die Suche nach dem Verfasser des Briefes.'),
@@ -56,7 +30,7 @@ INSERT INTO `Antwort` (`ID`, `antwort`) VALUES
 (18, 'Du nutzt das Chaos und fliehst. Die Maus hat sowieso nur Ärger gebracht.'),
 (19, 'Du willst der Maus helfen und verdeckst sie mit deinem Körper von den anderen.'),
 (20, 'Du gehst den Weg weiter.'),
-(21, 'Deine Neugier hat dich doch gepackt. Du willst unbedingt wissen, was hier los ist und machst dich wieder auf \r\ndie Suche nach der Maus.'),
+(21, 'Deine Neugier hat dich doch gepackt. Du willst unbedingt wissen, was hier los ist und machst dich wieder auf die Suche nach der Maus.'),
 (22, 'Du haust schnell ab, solange die Maus noch nicht zurückgekommen ist.'),
 (23, 'Du wartest auf die Maus.'),
 (24, 'Du nutzt die Chance, dass die Maus beschäftigt ist und fliehst. Du hattest schon die ganze Zeit ein ungutes Gefühl bei ihr.'),
@@ -72,28 +46,6 @@ INSERT INTO `Antwort` (`ID`, `antwort`) VALUES
 (34, 'Dir fällt ein, dass du ja noch das Fläschchen in der Hosentasche hast...'),
 (35, 'Du rennst so schnell es geht zum Ausgang...');
 
---
--- Indexes for dumped tables
---
-
---
--- Indexes for table `Antwort`
---
-ALTER TABLE `Antwort`
- ADD PRIMARY KEY (`ID`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `Antwort`
---
-ALTER TABLE `Antwort`
-MODIFY `ID` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=36;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 
 /*
 === Feedback Alpers, Jan 20 ===

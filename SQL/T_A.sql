@@ -1,41 +1,16 @@
--- phpMyAdmin SQL Dump
--- version 4.2.12deb2+deb8u1
--- http://www.phpmyadmin.net
---
--- Host: localhost
--- Generation Time: Jan 06, 2016 at 08:51 PM
--- Server version: 10.0.22-MariaDB-1~jessie-log
--- PHP Version: 5.6.14-0+deb8u1
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-
---
--- Database: `abt633`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `T_A`
---
+--Erstellen der T_A Tabelle
 
 CREATE TABLE IF NOT EXISTS `T_A` (
-`ID` int(10) unsigned NOT NULL,
+`ID` int(10) unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `text_id` int(10) unsigned NOT NULL,
   `antwort_id` int(10) unsigned DEFAULT NULL,
-  `folge_text` int(10) unsigned NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=52 DEFAULT CHARSET=latin1;
+  `folge_text` int(10) unsigned NOT NULL,
+  FOREIGN KEY (`text_id`) REFERENCES `Text`(`ID`) ON DELETE CASCADE ON UPDATE CASCADE,
+  FOREIGN KEY (`antwort_id`) REFERENCES `Antwort`(`ID`) ON DELETE CASCADE ON UPDATE CASCADE,
+  FOREIGN KEY (`folge_text`) REFERENCES `Text`(`ID`) ON DELETE CASCADE ON UPDATE CASCADE
+) 
 
---
--- Dumping data for table `T_A`
---
+--Befüllen der Tabelle mit den Verbindungen
 
 INSERT INTO `T_A` (`ID`, `text_id`, `antwort_id`, `folge_text`) VALUES
 (1, 1, 2, 2),
@@ -90,37 +65,4 @@ INSERT INTO `T_A` (`ID`, `text_id`, `antwort_id`, `folge_text`) VALUES
 (50, 37, 34, 40),
 (51, 37, 35, 41);
 
---
--- Indexes for dumped tables
---
 
---
--- Indexes for table `T_A`
---
-ALTER TABLE `T_A`
- ADD PRIMARY KEY (`ID`), ADD KEY `text_id` (`text_id`), ADD KEY `antwort_id` (`antwort_id`), ADD KEY `folge_text` (`folge_text`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `T_A`
---
-ALTER TABLE `T_A`
-MODIFY `ID` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=52;
---
--- Constraints for dumped tables
---
-
---
--- Constraints for table `T_A`
---
-ALTER TABLE `T_A`
-ADD CONSTRAINT `T_A_ibfk_1` FOREIGN KEY (`text_id`) REFERENCES `Text` (`ID`) ON DELETE CASCADE ON UPDATE CASCADE,
-ADD CONSTRAINT `T_A_ibfk_2` FOREIGN KEY (`antwort_id`) REFERENCES `Antwort` (`ID`) ON DELETE CASCADE ON UPDATE CASCADE,
-ADD CONSTRAINT `T_A_ibfk_3` FOREIGN KEY (`folge_text`) REFERENCES `Text` (`ID`) ON DELETE CASCADE ON UPDATE CASCADE;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
