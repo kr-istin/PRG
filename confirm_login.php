@@ -18,10 +18,10 @@
         $pw = $_POST['pass'];
 
         /*
-            Holt sich das Passwort, damit es mit der EIngabe verglichen werden kann:
+            Holt sich das Passwort, damit es mit der Eingabe verglichen werden kann:
             
             SELECT `Passwort` FROM `Login` WHERE `Name` = $username
-            
+
         */
     ?>        
     

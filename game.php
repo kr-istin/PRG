@@ -34,22 +34,22 @@
             echo "Der normale Spielfluss wird fortgefuehrt.<br>";     // Platzhalter Ausgabe als Test  
             
             /*
-                Holen der Aktuellen Textes und die Antwortmöglichkeiten
+                Holen des aktuellen Textes und deren Antwortmöglichkeiten (Wenn erster Text dann ID = 1)
                 SELECT `Text` FROM `Antwort` WHERE `ID`=$aktueller_text
 
 
-                Auflisten der Antworten
+                Auflisten der ID's der Antwortmöglichkeiten anhand des aktuellen Textes
                 SELECT `antwort_id` FROM T_A WHERE `text_id`=$aktueller_text
 
-                Holen der Antwort-Texte (muss in eine For-Schleife wo $antwort_id inkrementiert)
+                Holen der Antworttexte (muss in eine For-Schleife wo $antwort_id inkrementiert)
                 SELECT `antwort` FROM `Antwort` WHERE `ID` = $anwort_id
 
 
 
-                Holen des Folgetextes anhand der des Benutzers gewähten Antwort_id
+                Holen des Folgetextes anhand der gewähten Antwort_id des USER's
                 SELECT `folge_text` FROM `T_A` WHERE `text_id`=$aktueller_text AND `antwort_id`=$user_antwort_id
 
-                Die Rückgabe wird in eine Variable gespeichert und der Anzeigetext wird geholt
+                Die Rückgabe wird in eine Variable gespeichert und der anzuzeigende Text wird geholt
                 SELECT `text` FROM `Text` WHERE `ID`=$folge_text_id
 
             */

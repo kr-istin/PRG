@@ -19,7 +19,7 @@
         $pwRepeat = $_POST['repeat'];
         
         /*
-            Erstellen des Benutzers in der Datenbank:
+            Erstellen eines USER's:
             
             INSERT INTO `Login` SET(`Name`, `Passwort`) VALUES($username, $pw)
 
