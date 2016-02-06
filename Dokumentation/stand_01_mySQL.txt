@@ -84,3 +84,15 @@ Das ist leider als Dokumentation unübersichtlich: Sie mischen hier Kommentare u
 ist es nicht möglich, sich einen schnellen Überblick zu verschaffen.
 
 === Feedback Alpers, Ende ===
+
+---Stand 6.02.2016---
+Die Dateien zum Erstellen der Datenbanken wurden abgeändert
+So erstellen sie durch Aufrufen die Tabellen 'Antwort', 'Text', 'T_A' und 'Login'
+und befüllt auch gleich 'Text' und 'Antwort'
+
+In den Dateien  confirm_login.php ,  confirm_registration.php und  game.php 
+habe ich Kommentare eingefügt wann auf die Datenbank zugegriffen werden soll
+des weiteren habe ich die Datei  db_erstellen.php  erstellt 
+Beim Aufrufen dieser soll die DB überhaupt erst erstellt werden
+
+--------------------
