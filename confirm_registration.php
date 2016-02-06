@@ -18,6 +18,13 @@
         $pw = $_POST['pass'];
         $pwRepeat = $_POST['repeat'];
         
+        /*
+            Erstellen des Benutzers in der Datenbank:
+            
+            INSERT INTO `Login` SET(`Name`, `Passwort`) VALUES($username, $pw)
+
+        */
+
         // überprüft ob das wiederholte passwort übereinstimmt
         if($pw == $pwRepeat) {      
             echo "<p>Hallo " . $username . "!</p><br>";    // gibt kurze Bestätigung inkl. Username aus      

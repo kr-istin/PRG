@@ -32,6 +32,27 @@
 
             //  An dieser Stelle sollen dann der normale Text und die Auswahlmoeglichkeiten ausgegeben werden
             echo "Der normale Spielfluss wird fortgefuehrt.<br>";     // Platzhalter Ausgabe als Test  
+            
+            /*
+                Holen der Aktuellen Textes und die Antwortmöglichkeiten
+                SELECT `Text` FROM `Antwort` WHERE `ID`=$aktueller_text
+
+
+                Auflisten der Antworten
+                SELECT `antwort_id` FROM T_A WHERE `text_id`=$aktueller_text
+
+                Holen der Antwort-Texte (muss in eine For-Schleife wo $antwort_id inkrementiert)
+                SELECT `antwort` FROM `Antwort` WHERE `ID` = $anwort_id
+
+
+
+                Holen des Folgetextes anhand der des Benutzers gewähten Antwort_id
+                SELECT `folge_text` FROM `T_A` WHERE `text_id`=$aktueller_text AND `antwort_id`=$user_antwort_id
+
+                Die Rückgabe wird in eine Variable gespeichert und der Anzeigetext wird geholt
+                SELECT `text` FROM `Text` WHERE `ID`=$folge_text_id
+
+            */
 
             //  folgende Zeile sollte außerhalb der Tests natürlich gelöscht/auskommentiert werden
             $continue = false;
