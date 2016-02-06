@@ -1,7 +1,7 @@
 --Erstellen der Text Tabelle
 
 CREATE TABLE IF NOT EXISTS `Text` (
-	`ID` int(10) unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`ID` int(10) unsigned NOT NULL PRIMARY KEY,
 	`text` text NOT NULL
 );
 
