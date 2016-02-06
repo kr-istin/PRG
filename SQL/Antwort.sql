@@ -1,7 +1,7 @@
 --Tabelle Antwort erstellen
 
 CREATE TABLE IF NOT EXISTS `Antwort` (
-	`ID` int(10) unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`ID` int(10) unsigned NOT NULL PRIMARY KEY,
 	`antwort` text NOT NULL
 ) 
 
