@@ -96,3 +96,22 @@ des weiteren habe ich die Datei  db_erstellen.php  erstellt
 Beim Aufrufen dieser soll die DB überhaupt erst erstellt werden
 
 --------------------
+
+=== Feedback Alpers, Feb 12 ===
+
+1) Mir ist gerade noch etwas aufgefallen, dass Sie ganz oben in dieser Datei angeben.
+Dort schreiben Sie, dass Sie es für sinnvoller halten, dass Spieler ihren Spielstand als Datei zu Freunden mitnehmen,
+und dass sie die Daten deshalb nicht in einer DB speichern wollen. Das ist ein Widerspruch in sich: Jede DB ist genauso
+eine Datei wie alles andere auch. Also ist die Speicherung in der DB das selbe wie die Speicherung in einer Datei.
+
+Dazu kommt, dass Sie Spieler damit dazu nötigen, die Datei auf einem Datenträger herumzutragen, anstatt sie auf dem Server
+bereit zu halten, wo sie von jedem vernetzten Rechner aus jederzeit abgerufen werden kann.
+
+2) Ihr Ansatz, dass die DB beim Spielstart erstellt werden soll ist ein schwerwiegender Fehler: Wenn Sie Ihr Spiel auf einem Webserver bereit
+stellen und mehrere Spieler greifen gleichzeitig darauf zu, dann wird mit diesem Ansatz der Spielstand jedes anderen
+Spielers gelöscht, sobald ein weiterer Spieler ein neues Spiel startet.
+
+Außerdem führt dieser Ansatz die Grundidee einer DB ad absurdum: Datenbanken sind gerade dafür da, Daten langfristig und mit
+hoher Absicherung gegen Verluste zu speichern.
+
+=== Feedback Alpers, Ende ===

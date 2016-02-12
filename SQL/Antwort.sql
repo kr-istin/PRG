@@ -64,3 +64,11 @@ Sie aufgerufen werden sollen. Wenn es keine solche PHP-Datei gibt, dann erzeugen
 
 === Feedback Alpers, Ende ===
 -->
+
+/*
+=== Feedback Alpers, Feb 12 ===
+
+Ja, so können Sie eine Relation in einer DB erzeugen.
+
+=== Feedback Alpers, Ende ===
+*/

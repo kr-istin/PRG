@@ -33,3 +33,14 @@
         
 </body>
 </html>
+
+<!--
+=== Feedback Alpers bezügl. MySQL, Feb 12 ===
+
+Gut, genauso meinte ich das, als ich sagte, dass Sie den MySQL-Code als Kommentar
+einfügen sollen, damit die/der PHP'ler den Aufruf integrieren kann.
+
+(Gilt entsprechend auch für die übrigen Dateien, in denen Sie das gemacht haben.)
+
+=== Feedback Alpers, Ende ===
+-->
